@@ -4,7 +4,7 @@ const secp256k1 = require('secp256k1');
 const {randomBytes, createHash} = require('crypto');
 
 const sha256 = msg=> createHash ('sha256'), update (msg).digest()
-const to Bytes = hex=> Buffer.from (hex, 'hex') 
+const to Bytes = hex=> Buffer.from (hex, 'hex')
 /**
  * A function which generates a new random Secp256k1 private key, returning
  * it as a 64 character hexadecimal string.
